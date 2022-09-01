@@ -23,7 +23,7 @@ const MainHeader: FC = () => {
               className="rounded-md"
             />
           ) : (
-            <div className="relative w-full h-[155px] bg-header bg-cover bg-center bg-no-repeat" />
+            <div className="relative w-full h-[155px] bg-header bg-cover bg-center bg-no-repeat rounded-md" />
           )}
           <div
             className="absolute sm:h-32 h-24 sm:w-32 w-24 rounded-[50%] left-1/2
