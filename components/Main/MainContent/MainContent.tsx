@@ -85,7 +85,9 @@ const MainContent: FC = () => {
                       width={20}
                       height={20}
                     />
-                    <a className="text-base text-red ml-2.5">Lorem ipsum.com</a>
+                    <a href="#" className="text-base text-red ml-2.5">
+                      Lorem ipsum.com
+                    </a>
                   </div>
                   <div className="flex items-center">
                     <Image
@@ -95,7 +97,9 @@ const MainContent: FC = () => {
                       width={20}
                       height={20}
                     />
-                    <a className="text-base text-red ml-2.5">@Lorem ipsum</a>
+                    <a href="#" className="text-base text-red ml-2.5">
+                      @Lorem ipsum
+                    </a>
                   </div>
                   <div className="flex items-center">
                     <Image
@@ -105,7 +109,9 @@ const MainContent: FC = () => {
                       width={20}
                       height={20}
                     />
-                    <a className="text-base text-red ml-2.5">@Lorem ipsum</a>
+                    <a href="#" className="text-base text-red ml-2.5">
+                      @Lorem ipsum
+                    </a>
                   </div>
                   <div className="flex items-center">
                     <Image
@@ -115,7 +121,9 @@ const MainContent: FC = () => {
                       width={20}
                       height={20}
                     />
-                    <a className="text-base text-red ml-2.5">@Lorem ipsum</a>
+                    <a href="#" className="text-base text-red ml-2.5">
+                      @Lorem ipsum
+                    </a>
                   </div>
                 </div>
               </div>
