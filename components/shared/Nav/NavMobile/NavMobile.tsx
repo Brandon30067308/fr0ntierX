@@ -16,13 +16,19 @@ const NavMobile: FC<NavMobileProps> = ({ open }) => {
         <div className="w-full flex flex-col">
           <ul className="w-full text-white">
             <li>
-              <a className="block font-medium text-base py-2.5 mb-2.5">Lorem</a>
+              <a href="#" className="block font-medium text-base py-2.5 mb-2.5">
+                Lorem
+              </a>
             </li>
             <li>
-              <a className="block font-medium text-base py-2.5 mb-2.5">Lorem</a>
+              <a href="#" className="block font-medium text-base py-2.5 mb-2.5">
+                Lorem
+              </a>
             </li>
             <li>
-              <a className="block font-medium text-base py-2.5">Lorem</a>
+              <a href="#" className="block font-medium text-base py-2.5">
+                Lorem
+              </a>
             </li>
           </ul>
         </div>
