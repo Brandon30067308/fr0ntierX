@@ -16,53 +16,50 @@ const Nav: FC = () => {
       justify-center z-10"
     >
       <div
-        className="w-full max-w-screen-2xl flex justify-between items-center
+        className="w-full h-full max-w-screen-2xl flex justify-between items-center
         text-white py-6 px-3 sm:px-10 mx-auto"
       >
-        <div>
+        <div className="min-w-fit">
           <Logo />
         </div>
 
-        {width >= breakpoints.lg ? (
-          <div className="w-full flex items-center">
-            <div className="w-[50%] max-w-xl ml-auto mr-16">
-              <NavSearch />
-            </div>
-            <ul className="nav-items flex items-center font-medium text-base">
-              <li className="mr-8">
-                <a href="#" className="py-2.5">
-                  Lorem
-                </a>
-              </li>
-              <li className="mr-8">
-                <a href="#" className="py-2.5">
-                  Lorem
-                </a>
-              </li>
-              <li>
-                <a href="#" className="py-2.5">
-                  Lorem
-                </a>
-              </li>
-            </ul>
+        <div className="w-full hidden lg:flex items-center">
+          <div className="w-[50%] max-w-xl ml-auto mr-16">
+            <NavSearch />
           </div>
-        ) : (
-          <button
-            className={classNames(
-              "mobile-burger h-6 w-[30px] flex flex-col justify-between",
-              { open: navOpen }
-            )}
-            onClick={() => {
-              setNavOpen(!navOpen);
-            }}
-          >
-            <span />
-            <span />
-            <span />
-          </button>
-        )}
+          <ul className="nav-items flex items-center font-medium text-base">
+            <li className="mr-8">
+              <a href="#" className="py-2.5">
+                Lorem
+              </a>
+            </li>
+            <li className="mr-8">
+              <a href="#" className="py-2.5">
+                Lorem
+              </a>
+            </li>
+            <li>
+              <a href="#" className="py-2.5">
+                Lorem
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button
+          className={classNames(
+            "mobile-burger w-[30px] flex lg:hidden flex-col justify-center",
+            { open: navOpen }
+          )}
+          onClick={() => {
+            setNavOpen(!navOpen);
+          }}
+        >
+          <span className="mb-[5px]" />
+          <span className="mb-[5px]" />
+          <span />
+        </button>
       </div>
-      {width <= breakpoints.md && <NavMobile open={navOpen} />}
+      {width <= breakpoints.lg && <NavMobile open={navOpen} />}
     </nav>
   );
 };

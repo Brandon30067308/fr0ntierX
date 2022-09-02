@@ -62,7 +62,7 @@ const MainContent: FC = () => {
           header={
             <p className="flex items-center text-base text-white font-bold">
               <Image src={controlIcon} alt="control_icon" layout="intrinsic" />
-              <span className="ml-1.5">Lorem ipsum</span>
+              <span className="ml-1.5 block w-fit">Lorem ipsum</span>
             </p>
           }
           content={
@@ -85,7 +85,7 @@ const MainContent: FC = () => {
                       width={20}
                       height={20}
                     />
-                    <a href="#" className="text-base text-red ml-2.5">
+                    <a href="#" className="w-fit text-base text-red ml-2.5">
                       Lorem ipsum.com
                     </a>
                   </div>
@@ -97,7 +97,7 @@ const MainContent: FC = () => {
                       width={20}
                       height={20}
                     />
-                    <a href="#" className="text-base text-red ml-2.5">
+                    <a href="#" className="w-fit text-base text-red ml-2.5">
                       @Lorem ipsum
                     </a>
                   </div>
@@ -109,7 +109,7 @@ const MainContent: FC = () => {
                       width={20}
                       height={20}
                     />
-                    <a href="#" className="text-base text-red ml-2.5">
+                    <a href="#" className="w-fit text-base text-red ml-2.5">
                       @Lorem ipsum
                     </a>
                   </div>
@@ -144,7 +144,7 @@ const MainContent: FC = () => {
                 width={16}
                 height={16}
               />
-              <span className="mx-1.5">Lorem ipsum</span>
+              <span className="mx-1.5 block w-fit">Lorem ipsum</span>
               <Image
                 src={infoIcon}
                 alt="info_icon"
@@ -181,7 +181,7 @@ const MainContent: FC = () => {
           header={
             <p className="flex items-center text-base text-white font-bold">
               <Image src={controlIcon} alt="control_icon" layout="intrinsic" />
-              <span className="ml-1.5">Lorem ipsum</span>
+              <span className="ml-1.5 block w-fit">Lorem ipsum</span>
             </p>
           }
           content={<p className="text-base">Lorem ipsum</p>}

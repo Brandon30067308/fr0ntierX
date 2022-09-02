@@ -19,8 +19,8 @@ const Logo: FC<LogoProps> = ({ alt = false }) => {
         src={alt ? frontierXLogoAltImage : frontierXLogoImage}
         alt="FrontierX_Logo"
         layout="intrinsic"
-        height={width >= breakpoints.sm ? 23 : 15}
-        width={width >= breakpoints.sm ? 195 : 127}
+        height={width >= breakpoints.sm ? 20 : 15}
+        width={width >= breakpoints.sm ? 169 : 127}
       />
     </div>
   );

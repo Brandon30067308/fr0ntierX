@@ -33,7 +33,7 @@ const Accordion: FC<
           setOpen(!open);
         }}
       >
-        <div>{header}</div>
+        <div className="w-fit">{header}</div>
         <div
           className={`${open ? "rotate-180" : "rotate-0"} transition-transform`}
         >

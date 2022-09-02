@@ -38,7 +38,7 @@ const Main: FC = () => {
                   width={16}
                   height={16}
                 />
-                <span className="ml-1.5">Lorem ipsum</span>
+                <span className="w-fit block ml-1.5">Lorem ipsum</span>
               </li>
             ))}
           </ul>
